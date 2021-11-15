@@ -1,9 +1,9 @@
 {
-  "name": "@SoichiroOta/vue-storybook-lib",
-  "version": "1.0.0",
+  "name": "@soichiroota/vue-storybook-lib",
+  "version": "0.0.0",
   "description": "",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/SoichiroOta"
+    "registry": "https://npm.pkg.github.com/soichiroota"
   },
   "main": "dist/vue-storybook-lib.ssr.js",
   "browser": "dist/vue-storybook-lib.esm.js",
