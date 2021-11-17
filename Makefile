@@ -19,6 +19,12 @@ serve:
 storybook:
 	docker-compose run --rm --service-ports vue-storybook npm run storybook
 
+lint:
+	docker-compose run --rm vue npm run lint
+
+format:
+	docker-compose run --rm vue npm run format
+
 build--report--production:
 	docker-compose run --rm vue npm run build --report
 
